@@ -8,8 +8,7 @@ let React = require('react'),
     Countdown = require('Countdown');
 
 //style!css! are chained loaders, look in webpack.config.js
-require('style!css!foundation-sites/dist/foundation.min.css');
-//using jquery to load Foundation
+//load Foundation
 $(document).foundation();
 //App css
 require('style!css!sass!applicationStyles');
